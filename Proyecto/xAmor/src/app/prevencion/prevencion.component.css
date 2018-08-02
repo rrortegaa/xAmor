@@ -1,0 +1,14 @@
+/* Ejemplo de uso de imagen con transparencia */
+.caja{
+    width: 400px;
+    height: 400px;
+    background: url('https://placeimg.com/640/480/any');
+    background-size: cover;
+    display: flex;
+}
+
+.texto {
+    width: 100%;
+    background-color: hsla(300deg,30%,60%,0.5);
+    align-self: flex-end;
+}
