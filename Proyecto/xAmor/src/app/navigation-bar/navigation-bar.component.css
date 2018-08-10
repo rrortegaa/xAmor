@@ -11,10 +11,8 @@
 
 .miMenu {
   display: flex;
-  justify-content: flex-end;
-  /* justifica en horizontal */
-  align-items: center;
-  /* justifica en vertical */
+  justify-content: flex-end; /* justifica en horizontal */
+  align-items: center; /* justifica en vertical */
   width: 100%;
   height: 100px;
   align-self: flex-end;
@@ -25,10 +23,11 @@ ul li {
   display: inline-block;
 }
 
-li a {
+a {
   font-family: 'Quicksand', sans-serif;
   color: #FFF5F1;
   font-weight: bold;
+  text-decoration: none;
 }
 
 li a:hover {
@@ -42,9 +41,4 @@ li a:hover {
   padding: 20px;
   border-radius: 7px;
   box-shadow: 1px 1px 7px #FFF5F2;
-}
-
-a {
-  text-decoration: none;
-  outline: none;
 }

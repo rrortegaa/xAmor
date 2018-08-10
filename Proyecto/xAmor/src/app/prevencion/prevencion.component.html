@@ -1,19 +1,53 @@
-<!-- <h3>Prevención</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let hero of heroes" class="col-1-4">
-    <div class="module hero">
-      <h4>{{hero.name}}</h4>
-    </div>
-  </a>
-</div> -->
+<!-- w3CSS sidebar -->
+<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<div>
+  <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container"> -->
+<!-- Termina w3CSS sidebar
 
 <!-- Inicio: va en componente Principal -->
-<div class="caja">
-  <div class="texto">
-    <h2>Titulo</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio aspernatur magni, perferendis quis quidem at dolore veritatis itaque cupiditate voluptatem reprehenderit incidunt? Ipsam, minus ex cupiditate rem eaque voluptatum!
-    </p>
+<div class="sideBar">
+  <ul><a>Tipos de Prevención</a>
+    <li><a routerLink = "/prevencion">Diagnóstico Médico</a></li>
+    <li><a routerLink = "/prevencion">Chequeo Regular</a></li>
+    <li>Estilo de Vida:
+      <ul>
+          <li><a routerLink = "/prevencion">Dieta</a></li>
+          <li><a routerLink = "/prevencion">Ejercicio</a></li>
+          <li><a routerLink = "/prevencion">Hábitos Alimenticios</a></li>
+      </ul> 
+    </li>
+  </ul>
+
+</div>
+
+
+<div class="contenido">
+  <h1>Prevención</h1>
+  <div class="caja">
+    <div class="texto">
+      <h2>Titulo</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio aspernatur magni, perferendis quis quidem at dolore veritatis itaque cupiditate voluptatem reprehenderit incidunt? Ipsam, minus ex cupiditate rem eaque voluptatum!
+      </p>
+    </div>
   </div>
 </div>
+
+
+<!-- <script>
+  function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+  }
+  function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+  }
+  </script> -->
 <!-- Fin: va en componente Principal -->

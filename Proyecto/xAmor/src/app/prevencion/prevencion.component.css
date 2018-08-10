@@ -1,4 +1,27 @@
-/* Ejemplo de uso de imagen con transparencia */
+.sideBar {
+    /* display: flex; */
+    width: 20%;
+    background: #F61627;
+    opacity: 0.8;
+    border-radius: 0 0 8px 0;
+    padding: 25px 0;
+}
+.sideBar li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sideBar a {
+    color: #ffffff;
+
+}
+
+.contenido h1 {
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Ejemplo de uso de imagen con box de texto con transparencia */
 .caja{
     width: 400px;
     height: 400px;
