@@ -16,7 +16,10 @@
 .texto {
     width: 100%;
     /* height: auto; */
-    background-color: rgba(255, 0, 0, 0.25); /* opacidad */
+
+    /* opacidad */
+    /* background-color: rgba(255, 0, 0, 0.25); */
+    background-color: rgba(0, 0, 0, 0.5); 
     align-self: flex-end; /* Alineación respecto a la imagen */
     /* margin-bottom: auto; */
     padding: 25px;
